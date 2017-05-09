@@ -1,0 +1,286 @@
+body{background:white}
+.bigBody
+{
+	width : 960px;
+	margin-left : auto;
+	margin-right : auto;
+}
+/* BALISE GENERALE */
+a
+{
+	color : rgb(35,113,99);
+	text-decoration : none;	
+}
+/* FIN */ 
+
+/* HEADER & MENU BAR */
+header
+{
+	background-image : url(../img/imgTopPage.jpg);
+	width : 100%;
+	max-height : 357px;
+	height : 357px;
+}
+.menubar
+{
+	text-align : right;
+	height : 40px;
+	margin-right: 20px;
+	line-height : 40px;
+}
+.accountBar
+{
+	text-align : left;
+	float : left;
+	margin-left : 150px;
+}
+.aTopMenu
+{
+	color : white;
+	text-decoration : none;
+	margin-right : 30px;
+}
+.bold
+{
+
+	font-family : Trebuchet-MS;
+}
+
+.bandeau
+{
+	text-align : center;
+	background : rgb(35,113,99);
+	height : 70px;
+}
+.txtBandeau
+{
+	display : inline-block;
+	text-align : center;
+	color : white;
+	font-family : arial;
+	margin:15px;
+	font-size : 15px;
+	
+}
+/*FIN */
+.conteneurTxtImg
+{
+	clear : both;
+	width : 100%;
+	/* height : 475px; */
+	background : rgb(244,244,244);
+	padding-top : 40px;
+	padding-bottom : 20px;
+}
+/* ICI ON VA GERE l'ICONE ET LES LIENS EN DESSOUS */
+.icone
+{
+	border : 2px solid rgb(119,171,158);
+	border-radius : 50%;
+	padding : 5px;
+}
+.moreTxt:link
+{
+	color : rgb(119,171,158);
+	text-decoration : none;
+}
+.moreTxt:visited
+{
+	color : rgb(119,171,158);
+}
+.zoneTxt .fa-zon
+{
+	width : 50px;
+	line-height : 50px;
+	border : 2px solid rgb(35,113,99);
+	color : rgb(35,113,99);
+	border-radius : 50%;
+	font-size : 16px;
+}
+/*FIN DE ICONE ET LINK UNDER THAT */
+
+/*ICI ON GERE LE TEXTE ENTRE L'ICONE ET LE LINK */ 
+.zoneTxt
+{
+	text-align : center;
+	height : 160px;
+	width : 160px;
+	float : left;
+	font-size : 10px;
+	margin-bottom : 25px;
+}
+.zoneTxt1
+{
+	margin-left : 200px;
+	margin-right : 40px;
+}
+.zoneTxt3
+{
+	margin-left : 40px;
+}
+
+.readmore:link
+{
+	font-weight : bold;
+	color : rgb(35,113,99);
+}
+.readmore:visited
+{
+	font-weight : bold;
+	color : rgb(35,113,99);
+}
+
+/*FIN DE :ICI ON GERE LE TEXTE ENTRE L'ICONE ET LE LINK */ 
+/* PROPRIETE GERANT LA PREMIERE LIGNE */
+.zone4Image
+{
+	clear : both;
+	width : 600px;
+	margin-left : auto;
+	margin-right : auto;
+	font-size : 10px;
+}
+.zone2Image
+{
+	clear : both;
+	height : 100px;
+	width : 100%;
+	margin-top: 20px;
+}
+
+.zone1Image1
+{
+	height : 100px;
+	width : 180px;
+	float : left;
+	text-align : right;
+	padding-right : 10px;
+	
+}
+.zone1Image2
+{
+	float : right;
+	width : 180px;
+	text-align : left;
+}
+/* FIN */
+/* PROPRIETE GERANT LA DEUXIEME LIGNE */
+.imgWildLeft
+{
+	display : inline-block;
+	float : left;
+	border : 2px solid black;
+	border-radius : 50%;
+	overflow : hidden;
+	margin-right : 5px;
+}
+.imgWildRight
+{
+	display : inline-block;
+	float : left;
+	border : 2px solid black;
+	border-radius : 50%;
+	overflow : hidden;
+	margin-left : 5px;
+}
+	
+.zone2Image1
+{
+	height : 100px;
+	width : 180px;
+	float : left;
+	text-align : right;
+	padding-right : 10px;
+	
+}
+.zone2Image2
+{
+	float : right;
+	width : 180px;
+	text-align : left;
+	
+}
+/* FIN */
+
+/* FOOTER */
+footer
+{
+	background : rgb(35,113,99);
+	height : 300px;
+	width : 960px;
+	margin-left : auto;
+	margin-right :auto;
+}
+footer .centerContact
+{
+	width : 620px;
+	margin-left : auto;
+	margin-right : auto;
+}
+footer .contact
+{
+
+	float : left;
+	font-size : 9px;
+	margin-top : 50px;
+	margin-right : 50px;
+}
+footer .contactTxt
+{
+	line-height : 18px;
+}
+footer .imageContact
+{
+	float : left;
+	margin-top : 40px;
+	margin-right : 5px; 
+	border : 2px solid rgb(35,113,99);
+	border-radius : 50%;
+	text-align : center;
+}
+footer .imageContact .fa-end
+{
+	font-size : 16px;
+	line-height : 50px;
+	width : 50px;
+	border : 2px solid rgb(74,186,164);
+	color : rgb(74,186,164);
+	background : white;
+	border-radius : 50%;
+}
+footer .imageContact .fa-mobile 
+{
+	font-size : 20px;
+}
+footer .searchBar
+{
+	clear : both;
+	text-align : center;
+	 padding-top : 70px; 
+	
+}
+footer .titleSearchBar
+{
+	font-size : 15px;
+	font-family : Arial;
+	color : white;
+}
+footer .emailChamp
+{
+	color : white;
+	background : rgb(79,190,173);
+}
+footer .emailChamp:focus
+{
+	counter-reset : clear; 	
+}
+footer .bouton
+{
+	width : 80px;
+	color : rgb(79,190,173);
+}
+/* FIN FOOTER */
+
+
+
+
